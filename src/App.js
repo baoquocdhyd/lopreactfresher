@@ -3,7 +3,7 @@ import Header from './components/Header.js'
 import TableUsers from './components/TableUsers.js'
 import Container from 'react-bootstrap/Container'
 import C1 from './components/C1.js' 
-import DataTable from "./components/ThuchanhMUI copy 2.js";
+// import DataTable from "./components/ThuchanhMUI copy 2.js";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         {/* <TableUsers /> */}
       </Container>
         <C1/>
-        <DataTable/>
+        {/* <DataTable/> */}
     </div>
   )
 }
