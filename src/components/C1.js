@@ -1,6 +1,6 @@
 import { useState, useLayoutEffect } from 'react'
-// import axios from '../axios.js'
-import axios from 'axios'
+import axios from '../axios.js'
+// import axios from 'axios'
 
 import dateFormat from 'dateformat'
 import moment from 'moment'
@@ -17,8 +17,8 @@ const C1 = () => {
   const [sort, setSort] = useState({ten:0,ngayhendo:0,ngaydo:1})
 
   const Fi = async () => {
-    // const A = await axios.get('/api/get')
-    const A = await axios.get('https://danhsachdiennao.herokuapp.com/api/get')
+    const A = await axios.get('/api/get')
+    // const A = await axios.get('https://danhsachdiennao.herokuapp.com/api/get')
 
     // const S = A.sort(function(a, b){
     //   let x = a.ngaydo;
@@ -28,7 +28,7 @@ const C1 = () => {
     //   return 0;
     // }
     // )
-    setA(A.data)
+    setA(A)
   }
   useLayoutEffect(() => {
     Fi()

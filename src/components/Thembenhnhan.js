@@ -1,5 +1,6 @@
 // import axios from '../axios'
-import axios from 'axios'
+// import axios from 'axios'
+import axios from '../axios.js'
 
 import { useState, useEffect, useLayoutEffect } from 'react'
 import casual from 'casual-browserify'
@@ -50,7 +51,7 @@ const Thembenhnhan = () => {
   let B = async (a) => {
     try {
       // let b = await axios.post('/api/save', a)
-      let b = await axios.post('https://danhsachdiennao.herokuapp.com/api/save', a)
+      let b = await axios.post('/api/save', a)
 
     } catch (e) {
       console.log(e)

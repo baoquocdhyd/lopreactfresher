@@ -1,5 +1,7 @@
 // import axios from '../axios'
-import axios from 'axios'
+// import axios from 'axios'
+import axios from '../axios.js'
+
 import { useState, useLayoutEffect } from 'react'
 import moment from 'moment'
 const Suathongtin = ({ b }) => {
@@ -26,7 +28,7 @@ const Suathongtin = ({ b }) => {
   }
   let B = async (a) => {
     try {
-      let b = await axios.put('https://danhsachdiennao.herokuapp.com/api/put', a)
+      let b = await axios.put('/api/put', a)
     } catch (e) {
       console.log(e)
     }
