@@ -59,7 +59,7 @@ const Thembenhnhan = () => {
   // console.log('kiem tra them',a)
   return (
     <div style={{ position: 'absolute', left: '0px' }}>
-      <form
+      <div
         className=""
         id=""
         style={{
@@ -308,7 +308,7 @@ const Thembenhnhan = () => {
           Lưu
         </button>
         <button className="">Thoát</button>
-      </form>
+      </div>
     </div>
   )
 }

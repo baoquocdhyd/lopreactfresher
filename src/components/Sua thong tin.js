@@ -59,7 +59,7 @@ const Suathongtin = ({ b }) => {
   // console.log("test momment", moment(b.ngayhendo).format("YYYY-MM-DDTHH:mm"));
   return (
     <div style={{ position: 'absolute', right: '10px' , top: '20px' , backgroundColor: 'white'}}>
-      <form
+      <div
         className=""
         id=""
         style={{
@@ -315,7 +315,7 @@ const Suathongtin = ({ b }) => {
           Lưu
         </button>
         <button className="">Thoát</button>
-      </form>
+      </div>
     </div>
   )
 }
