@@ -11,10 +11,9 @@ function App() {
       <h1>Hello word</h1>
       <Header />
       <Container>
-        {/* <TableUsers /> */}
+        <TableUsers />
       </Container>
-        <C1/>
-        {/* <DataTable/> */}
+        {/* <C1/> */}
     </div>
   )
 }

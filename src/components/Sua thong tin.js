@@ -1,6 +1,6 @@
 // import axios from '../axios'
 // import axios from 'axios'
-import axios from '../axios.js'
+import axios from '../services/axios.js'
 
 import { useState, useLayoutEffect } from 'react'
 import moment from 'moment'

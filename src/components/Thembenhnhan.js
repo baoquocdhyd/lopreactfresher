@@ -1,6 +1,6 @@
 // import axios from '../axios'
 // import axios from 'axios'
-import axios from '../axios.js'
+import axios from '../services/axios.js'
 
 import { useState, useEffect, useLayoutEffect } from 'react'
 import casual from 'casual-browserify'
@@ -299,7 +299,6 @@ const Thembenhnhan = () => {
             backgroundSize: '50%',
             backgroundRepeat: 'no-repeat',
           }}>
-          {' '}
         </div>
         <button
           className=""
