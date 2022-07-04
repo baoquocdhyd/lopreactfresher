@@ -5,3 +5,6 @@ const fetchAllUser = () => {
 }
 export  {fetchAllUser}
 
+const loginApi = (email, password) => {
+  return axios.post('/api/login', {email, password})
+}

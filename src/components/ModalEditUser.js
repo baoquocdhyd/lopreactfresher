@@ -2,6 +2,7 @@ import axios from '../services/axios.js'
 import { useState, useLayoutEffect } from 'react'
 import { Modal, Button, Form } from 'react-bootstrap'
 import { toast } from 'react-toastify'
+
 const ModalEditUser = (props) => {
 	const {show, dataUserEdit, handleEditClose, handleUpdateEditTable } = props
   const [a, setA] = useState({ id: '', email: '', first_name: '', last_name: '' })
@@ -95,7 +96,7 @@ const ModalEditUser = (props) => {
 							handleUpdateEditTable(a)
               props.handleEditClose()
             }}>
-            Update{' '}
+            Update
           </Button>
         </Modal.Footer>
       </Modal>
@@ -103,3 +104,5 @@ const ModalEditUser = (props) => {
   )
 }
 export default ModalEditUser
+
+
